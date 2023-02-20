@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      description="landing page miau miau ñam"
+    />
+    <link rel="stylesheet" href="css/purified.css" />
+
+    <title>Landing page ñam ñam miau</title>
+  </head>
+  <body>
+    <div class="container fondo">
+      <!-- Cabecera -->
+      <div class="row m-4">
+        <div
+          class="col-6 col-sm-7 col-md-8 col-lg-6 col-xl-7 d-flex justify-content-start"
+        >
+          <div class="m-2">
+            <img
+              src="img/logogato.webp"
+              alt="logo Miau Miau Ñam"
+              width="84px"
+              height="90px"
+            />
+          </div>
+          <h1 class="m-2">ÑAM ÑAM MIAU</h1>
+        </div>
+        <div class="col m-4 d-flex justify-content-start">
+          <nav class="navbar navbar-expand-lg colormenu">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Feedback</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Cuerpo -->
+      <div class="row m-4">
+        <!-- columna izquierda -->
+        <div
+          class="col-sm-12 col-md-12 col-lg-4 col-xl-4 m-lg-4 d-flex flex-sm-column-reverse flex-lg-column"
+        >
+          <h2 class="m-4 p-2 fondodark" id="rota">
+            DESCARGA GRATIS "CUIDADOS DEL FELINO" ENVIANDO EL FORMULARIO
+          </h2>
+          <div>
+            <img
+              class="mt-4"
+              src="img/Migata.webp"
+              alt="Gato ÑAM ÑAM Miau"
+              width="100%"
+            />
+          </div>
+        </div>
+
+        <!-- Columna centro -->
+        <div
+          class="col-sm-12 col-md-12 col-lg-7 col-xl-4 mt-0 shadow-lg bg-body-tertiary-rounded"
+        >
+          <h1 class="m-4">Formulario de contacto</h1>
+
+          <div class="container">
+            <!-- Formulario de contacto -->
+            <form class="estiloform row needs-validation" novalidate>
+              <div class="row">
+                <!-- Formulario fila 1 -->
+                <div class="form-group col-12 m-3">
+                  <!-- Nombre -->
+
+                  <label for="Nombre_completo" class="control-label"
+                    >Nombre</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Nombre_completo"
+                    name="full_name"
+                    placeholder="Juan García"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    <!--invalid-feedback muestra un mensaje de no validación-->
+                    Por favor, indroduzca su nombre completo
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Formulario fila 2 -->
+                <div class="form-group col-12 m-3">
+                  <!-- Dirección -->
+                  <label for="dir_pos" class="control-label">Dirección</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="dir_pos"
+                    name="direccion"
+                    placeholder="Rue del Percebe, 13"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Formulario fila 3 -->
+                <div class="form-group m-3 col-12">
+                  <!-- Ciudad -->
+
+                  <label for="ciudad" class="control-label">Ciudad</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="ciudad"
+                    name="city"
+                    placeholder="Madrid"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Formulario fila 4 -->
+                <div class="form-group m-3 col-6">
+                  <!-- Provincia -->
+
+                  <label for="provincia" class="control-label">Provincia</label>
+                  <select class="form-control" id="provincia">
+                    <option value="NULL">--</option>
+                    <option value="ALA">Álava</option>
+                    <option value="ALB">Albacete</option>
+                    <option value="ALI">Alicante</option>
+                    <option value="ALM">Almería</option>
+                    <option value="AST">Asturias</option>
+                    <option value="AVL">Ávila</option>
+                    <option value="BDJ">Badajoz</option>
+                    <option value="BCN">Barcelona</option>
+                    <option value="CAC">Cáceres</option>
+                    <option value="CAD">Cádiz</option>
+                    <option value="CAN">Cantabria</option>
+                    <option value="CAS">Castellón</option>
+                    <option value="CIU">Ciudad Real</option>
+                    <option value="COR">Córdoba</option>
+                    <option value="CUE">Cuenca</option>
+                    <option value="GER">Gerona</option>
+                    <option value="GRA">Granada</option>
+                    <option value="GUA">Guadalajara</option>
+                    <option value="GUI">Guipúzcoa</option>
+                    <option value="HUE">Huelva</option>
+                    <option value="HSC">Huesca</option>
+                    <option value="BAR">Islas Baleares</option>
+                    <option value="JAE">Jaén</option>
+                    <option value="COR">La Coruña</option>
+                    <option value="RIO">La Rioja</option>
+                    <option value="LPG">Las Palmas</option>
+                    <option value="LEO">León</option>
+                    <option value="LER">Lérida</option>
+                    <option value="LUG">Lugo</option>
+                    <option value="MAD">Madrid</option>
+                    <option value="MAL">Málaga</option>
+                    <option value="MUR">Murcia</option>
+                    <option value="NAV">Navarra</option>
+                    <option value="OUR">Orense</option>
+                    <option value="PAL">Palencia</option>
+                    <option value="PON">Pontevedra</option>
+                    <option value="SAL">Salamanca</option>
+                    <option value="SCT">Santa Cruz de Tenerife</option>
+                    <option value="SEG">Segovia</option>
+                    <option value="SEV">Sevilla</option>
+                    <option value="SOR">Soria</option>
+                    <option value="TAG">Tarragona</option>
+                    <option value="TER">Teruel</option>
+                    <option value="VAL">Valencia</option>
+                    <option value="VLD">Valladolid</option>
+                    <option value="VIZ">Vizcaya</option>
+                    <option value="ZAM">Zamora</option>
+                    <option value="ZAR">Zaragoza</option>
+                  </select>
+                </div>
+
+                <div class="form-group m-3 col">
+                  <!-- Código postal -->
+
+                  <label for="cp" class="control-label">C.P.</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cp"
+                    name="cod_post"
+                    placeholder="#####"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Formulario fila 5 -->
+                <div class="form-group m-3 col-12">
+                  <!-- E-mail -->
+                  <label for="email" class="control-label">E-mail</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    name="e-mail"
+                    placeholder="E-mail"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    <!--invalid-feedback muestra un mensaje de no validación-->
+                    Por favor, indroduzca su dirección de e-mail.
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Formulario fila 6 -->
+                <div class="form-group m-3 col-12">
+                  <!-- Teléfono -->
+                  <label for="telf" class="control-label">Teléfono</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="telf"
+                    name="telef"
+                    placeholder="#########"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Fila Botón -->
+                <div class="lineaBoton d-flex justify-content-center m-3 mb-0">
+                  <!-- Submit Button -->
+                  <button
+                    type="submit"
+                    class="btn btn-secondary ov-btn-grow-spin pr-4 pl-4 mb-5 bg-body-tertiary rounded"
+                  >
+                    Enviar
+                  </button>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Fila Checkbox -->
+                <div class="form-check mt-0 d-flex justify-content-center">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck"
+                    required
+                  />
+                  <label class="form-check-label mb-4" for="invalidCheck">
+                    Acepto las condiciones de la promoción.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- columna derecha -->
+        <div class="col col-md-0 d-flex flex-column m-4">
+          <div>
+            <h3 class="mb-3 text-center">Cuidemos la alimentación</h3>
+            <div class="mt-3 mb-3">
+              <p class="text-center">
+                Los gatos son animales carnívoros, por lo que tienen que incluir
+                la carne en su dieta. A diferencia de los perros, los gatos
+                nunca podrían ser vegetarianos o veganos. Los felinos toman como
+                fuente de energía principal las proteínas y necesitan mayores
+                cantidades de éstas que las que necesitan los perros.
+              </p>
+            </div>
+          </div>
+          <div class="m-3 d-flex justify-content-center">
+            <div>
+              <img src="img/gato-cocinero.webp" alt="" />
+            </div>
+          </div>
+
+          <div class="mt-3 mb-3">
+            <p class="text-center">
+              Un gato bien alimentado estará sano y no sufrirá problemas renales
+              y la formación de cristales en la orina. Conocer las pautas de una
+              alimentación sana para el felino evitará también más de una visita
+              al veterinario.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pie -->
+      <div class="row m-4">
+        <div class="d-flex justify-content-center">
+          <p>(C) FOOTER</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+  </body>
+</html>
