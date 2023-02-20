@@ -10774,7 +10774,7 @@ textarea.form-control-lg {
 }
 
 .fondodark {
-  background-color: red;
+  background-color: green;
   color: #eeecde;
   font-weight: bolder;
 }
@@ -10786,7 +10786,7 @@ textarea.form-control-lg {
 @keyframes rotando {
   from {
     transform: rotate(0) scale(0);
-    color: red;
+    color: green;
   }
   to {
     transform: rotate(-5deg) scale(1.2);
